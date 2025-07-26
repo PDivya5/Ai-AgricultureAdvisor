@@ -9,11 +9,11 @@ import requests
 from gtts import gTTS
 
 # Google API Key
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBTNjZpNhwz1rGlFuMc8CAQuCvJ-SWAOB4")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "API KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # OpenWeatherMap API Key
-OPENWEATHERMAP_API_KEY = "152fc02a4c31c523591c7a324d6dc3dd"
+OPENWEATHERMAP_API_KEY = "API KEY"
 
 # Set background image and modern theme
 st.markdown(
